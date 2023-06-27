@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<opencv_storage>
+    <reference_points>
+        <rp1>
+            <x> 380 </x>
+            <y> 60 </y>
+        </rp1>
+        <rp2>
+            <x> 380 </x>
+            <y> 235 </y>
+        </rp2>
+        <rp3>
+            <x> 97 </x>
+            <y> 144 </y>
+        </rp3>
+    </reference_points>
+    <target_points>
+        <tp1>
+            <x> 336 </x>
+            <y> 65 </y>
+        </tp1>
+        <tp2>
+            <x> 340 </x>
+            <y> 179 </y>
+        </tp2>
+        <tp3>
+            <x> 332 </x>
+            <y> 217 </y>
+        </tp3>
+        <tp4>
+            <x> 335 </x>
+            <y> 268 </y>
+        </tp4>
+    </target_points>
+</opencv_storage>

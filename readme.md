@@ -1,4 +1,4 @@
-# 电路板元器件高度检测
+![image](https://github.com/Open3DV/PCB_measurement/assets/3446495/d9a09019-7347-4b4f-8a24-766058756a34)# 电路板元器件高度检测
 
 https://github.com/Open3DV/PCB_measurement/assets/3446495/ebdb13d8-7eac-4c86-b644-756c7488b683
 
@@ -58,4 +58,26 @@ https://github.com/Open3DV/PCB_measurement/assets/3446495/ebdb13d8-7eac-4c86-b64
         </tp4>
     </target_points>
 </opencv_storage>
+```
+
+# 算法流程图
+```mermaid
+    graph TB
+    A(简历模板)
+    B[拍摄工件2D图并剪裁]
+    C[记录参考点坐标]
+    D[记录测量点坐标]
+    E[保存成XML格式]
+    A-->B-->C
+    B-->D
+    C-->E
+    D-->E
+
+    F(测量高度)
+    G[读取模板]
+    H[相机拍摄3D点云]
+    I[模板匹配]
+    J[根据参考点建立参考平面]
+    K[输出测量点相对参考平面的高度]
+    F-->G-->H-->I-->J-->K-->H
 ```
